@@ -154,5 +154,5 @@ if(isset($_POST['submit'])){
     </div>
   </div>
              </form>
-             <script src="SwapFormblock.js" charset="utf-8"></script>
+             <script src="Swapper.js" charset="utf-8"></script>
 </section>
