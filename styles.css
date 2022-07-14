@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+button{
+    margin-left: 10%;
+    text-align: center;
+}
+
+.navbar-nav{
+    width: 100%;
+    margin-left: 80%;
+}
+/* horizontal rules*/
+hr {
+    border-top: none;
+    border-bottom: 1px solid black;
+    background-color: black;
+    opacity: 0.5;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* heading section */
+.header-container{
+    padding-right: 5%;
+}
+.bg-light {
+    background-color:white !important;
+}
+
+/* body section */
+input[type=checkbox]{
+    margin-left: -80%;
+}
+.body .row:first-of-type{
+    margin-top: 1%;
+}
+.body .row {
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+.body .row div {
+    border: 1px solid;
+    
+}
+.body .row:last-of-type{
+    margin-bottom: 1%;
+}
+.index_row {
+    border: 1px solid;
+    
+}
+/*FORM SECTION */
+form .row {
+    margin-bottom: 2.5%;
+}
+
+/* footer section*/
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5%;
+}
+/***************Media query*******************/
+@media screen and (max-width:993px) {
+    button{
+        margin-left: 0%;
+        border: 1px solid;
+    }
+    .navbar-nav{
+        width: 100%;
+        margin-left:0%;
+    }   
+    .index_row {
+        border: 1px solid;
+        width: 90%;
+        margin-top: 2%;
+        
+    }
+    .btn{
+    border:1px solid;
+    }
+}
